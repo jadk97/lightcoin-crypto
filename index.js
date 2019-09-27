@@ -66,3 +66,5 @@ const t2 = new Withdrawal(50.00, myAccount);
 t2.commit();
 
 console.log('Ending Balance:', myAccount.balance);
+
+console.log("Transactions", myAccount.transactions);
